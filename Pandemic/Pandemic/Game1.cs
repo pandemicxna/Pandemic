@@ -24,6 +24,7 @@ namespace Pandemic
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             //Test
+            //test_alex
         }
 
         /// <summary>
