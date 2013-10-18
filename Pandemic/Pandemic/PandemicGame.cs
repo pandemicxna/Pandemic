@@ -108,13 +108,13 @@ namespace Pandemic
             //    mouseState.Y != prevMouseState.Y)
             //  //  ringsPosition = new Vector2(mouseState.X, mouseState.Y);
             //prevMouseState = mouseState;
-             if (mouse.LeftButton == ButtonState.Pressed && kay == false)
+             if (mouse.RightButton == ButtonState.Pressed && kay == false)
              {
                  X.Add(Convert.ToString(mouse.X));
                  Y.Add(Convert.ToString(mouse.Y));
                  kay = true;
              }
-             if (mouse.LeftButton == ButtonState.Released) kay = false;
+             if (mouse.RightButton == ButtonState.Released) kay = false;
             base.Update(gameTime);
         }
 
