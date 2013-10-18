@@ -1,0 +1,7 @@
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\bin\x86\Debug\Pandemic.exe
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\bin\x86\Debug\Pandemic.pdb
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\obj\x86\Debug\Pandemic.csprojResolveAssemblyReference.cache
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\obj\x86\Debug\Pandemic.exe
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\obj\x86\Debug\Pandemic.pdb
+F:\SkyDrive\Pandemic\Pandemic\Pandemic\bin\x86\Debug\Content\Textures\background.xnb
