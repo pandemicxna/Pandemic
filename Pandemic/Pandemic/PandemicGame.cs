@@ -26,6 +26,9 @@ namespace Pandemic
         KeyboardState keyboardState;
         List<string> X = new List<string>();
         List<string> Y = new List<string>();
+        List<City> city= new List<City>();
+        CityList citylist= new CityList();
+         
         bool kay = false;
         public PandemicGame()
         {
@@ -45,6 +48,7 @@ namespace Pandemic
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            city = citylist.Create();
 
             base.Initialize();
         }
@@ -59,6 +63,11 @@ namespace Pandemic
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             background = Content.Load<Texture2D>("Textures\\background");
+            
+            
+
+
+
 
 
             // TODO: use this.Content to load your game content here
@@ -71,6 +80,7 @@ namespace Pandemic
         protected override void UnloadContent()
         {
             // TODO: Unload any non ContentManager content here
+            
         }
 
         /// <summary>
